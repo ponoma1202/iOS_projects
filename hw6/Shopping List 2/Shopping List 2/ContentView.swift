@@ -60,19 +60,16 @@ struct ContentView: View {
                     
                     TextField("Quantity", text: $tempQuantity)
                 }
-                HStack {
                     Button("Add New Item") {
                         if (tempItemName != "" && tempQuantity != "") {
                             addItem()
                         }
                     }
                     
-                    Spacer()
                     
                     Button("Delete Latest Item") {
                         removeItem()
                     }
-                }
                 
             }.navigationTitle("Shopping List")
         }

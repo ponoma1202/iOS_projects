@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		501B06E42920924F006C3CE9 /* Quzlet_ishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B06E32920924F006C3CE9 /* Quzlet_ishApp.swift */; };
+		501B06E62920924F006C3CE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B06E52920924F006C3CE9 /* ContentView.swift */; };
+		501B06E829209252006C3CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501B06E729209252006C3CE9 /* Assets.xcassets */; };
+		501B06EC29209252006C3CE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501B06EB29209252006C3CE9 /* Preview Assets.xcassets */; };
+		501B06F32920958A006C3CE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 501B06F22920958A006C3CE9 /* GoogleService-Info.plist */; };
+		501B06F629209B2D006C3CE9 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 501B06F529209B2D006C3CE9 /* FirebaseDatabase */; };
+		501B06F829209B2D006C3CE9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 501B06F729209B2D006C3CE9 /* FirebaseFirestore */; };
+		501B06FE29213F2C006C3CE9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B06FD29213F2C006C3CE9 /* Card.swift */; };
+		501B070129213F5A006C3CE9 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B070029213F5A006C3CE9 /* CardListViewModel.swift */; };
+		501B070329213F6C006C3CE9 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B070229213F6C006C3CE9 /* CardViewModel.swift */; };
+		501B070729213F98006C3CE9 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B070629213F98006C3CE9 /* AuthenticationService.swift */; };
+		501B070B29213FD2006C3CE9 /* NewCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B070A29213FD2006C3CE9 /* NewCardForm.swift */; };
+		501B070D29213FDF006C3CE9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B070C29213FDF006C3CE9 /* CardView.swift */; };
+		501B070F29213FEB006C3CE9 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B070E29213FEB006C3CE9 /* CardListView.swift */; };
+		501B071129214092006C3CE9 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B071029214092006C3CE9 /* CardRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		501B06E02920924F006C3CE9 /* Quzlet-ish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quzlet-ish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		501B06E32920924F006C3CE9 /* Quzlet_ishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quzlet_ishApp.swift; sourceTree = "<group>"; };
+		501B06E52920924F006C3CE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		501B06E729209252006C3CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		501B06E929209252006C3CE9 /* Quzlet_ish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quzlet_ish.entitlements; sourceTree = "<group>"; };
+		501B06EB29209252006C3CE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		501B06F22920958A006C3CE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		501B06FD29213F2C006C3CE9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		501B070029213F5A006C3CE9 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		501B070229213F6C006C3CE9 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		501B070629213F98006C3CE9 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		501B070A29213FD2006C3CE9 /* NewCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardForm.swift; sourceTree = "<group>"; };
+		501B070C29213FDF006C3CE9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		501B070E29213FEB006C3CE9 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		501B071029214092006C3CE9 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501B06DD2920924F006C3CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501B06F629209B2D006C3CE9 /* FirebaseDatabase in Frameworks */,
+				501B06F829209B2D006C3CE9 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501B06D72920924F006C3CE9 = {
+			isa = PBXGroup;
+			children = (
+				501B06E22920924F006C3CE9 /* Quzlet-ish */,
+				501B06E12920924F006C3CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501B06E12920924F006C3CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501B06E02920924F006C3CE9 /* Quzlet-ish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501B06E22920924F006C3CE9 /* Quzlet-ish */ = {
+			isa = PBXGroup;
+			children = (
+				501B070529213F84006C3CE9 /* Services */,
+				501B070829213FB6006C3CE9 /* Views */,
+				501B06FF29213F37006C3CE9 /* ViewModels */,
+				501B06FC29213F14006C3CE9 /* Models */,
+				501B06F929213EC6006C3CE9 /* Repositories */,
+				501B06E32920924F006C3CE9 /* Quzlet_ishApp.swift */,
+				501B06F22920958A006C3CE9 /* GoogleService-Info.plist */,
+				501B06E52920924F006C3CE9 /* ContentView.swift */,
+				501B06E729209252006C3CE9 /* Assets.xcassets */,
+				501B06E929209252006C3CE9 /* Quzlet_ish.entitlements */,
+				501B06EA29209252006C3CE9 /* Preview Content */,
+			);
+			path = "Quzlet-ish";
+			sourceTree = "<group>";
+		};
+		501B06EA29209252006C3CE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				501B06EB29209252006C3CE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		501B06F929213EC6006C3CE9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				501B071029214092006C3CE9 /* CardRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		501B06FC29213F14006C3CE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				501B06FD29213F2C006C3CE9 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		501B06FF29213F37006C3CE9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				501B070029213F5A006C3CE9 /* CardListViewModel.swift */,
+				501B070229213F6C006C3CE9 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		501B070529213F84006C3CE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				501B070629213F98006C3CE9 /* AuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		501B070829213FB6006C3CE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				501B070929213FC1006C3CE9 /* Card */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		501B070929213FC1006C3CE9 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				501B070A29213FD2006C3CE9 /* NewCardForm.swift */,
+				501B070C29213FDF006C3CE9 /* CardView.swift */,
+				501B070E29213FEB006C3CE9 /* CardListView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501B06DF2920924F006C3CE9 /* Quzlet-ish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501B06EF29209252006C3CE9 /* Build configuration list for PBXNativeTarget "Quzlet-ish" */;
+			buildPhases = (
+				501B06DC2920924F006C3CE9 /* Sources */,
+				501B06DD2920924F006C3CE9 /* Frameworks */,
+				501B06DE2920924F006C3CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quzlet-ish";
+			packageProductDependencies = (
+				501B06F529209B2D006C3CE9 /* FirebaseDatabase */,
+				501B06F729209B2D006C3CE9 /* FirebaseFirestore */,
+			);
+			productName = "Quzlet-ish";
+			productReference = 501B06E02920924F006C3CE9 /* Quzlet-ish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501B06D82920924F006C3CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					501B06DF2920924F006C3CE9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 501B06DB2920924F006C3CE9 /* Build configuration list for PBXProject "Quzlet-ish" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501B06D72920924F006C3CE9;
+			packageReferences = (
+				501B06F429209B2D006C3CE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 501B06E12920924F006C3CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501B06DF2920924F006C3CE9 /* Quzlet-ish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501B06DE2920924F006C3CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501B06EC29209252006C3CE9 /* Preview Assets.xcassets in Resources */,
+				501B06E829209252006C3CE9 /* Assets.xcassets in Resources */,
+				501B06F32920958A006C3CE9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501B06DC2920924F006C3CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501B070129213F5A006C3CE9 /* CardListViewModel.swift in Sources */,
+				501B070729213F98006C3CE9 /* AuthenticationService.swift in Sources */,
+				501B070B29213FD2006C3CE9 /* NewCardForm.swift in Sources */,
+				501B06E62920924F006C3CE9 /* ContentView.swift in Sources */,
+				501B06FE29213F2C006C3CE9 /* Card.swift in Sources */,
+				501B06E42920924F006C3CE9 /* Quzlet_ishApp.swift in Sources */,
+				501B070D29213FDF006C3CE9 /* CardView.swift in Sources */,
+				501B071129214092006C3CE9 /* CardRepository.swift in Sources */,
+				501B070F29213FEB006C3CE9 /* CardListView.swift in Sources */,
+				501B070329213F6C006C3CE9 /* CardViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		501B06ED29209252006C3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		501B06EE29209252006C3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		501B06F029209252006C3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Quzlet-ish/Quzlet_ish.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quzlet-ish/Preview Content\"";
+				DEVELOPMENT_TEAM = 7GDCD37BJT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VasilisaPonomarenko.Quzlet-ish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		501B06F129209252006C3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Quzlet-ish/Quzlet_ish.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quzlet-ish/Preview Content\"";
+				DEVELOPMENT_TEAM = 7GDCD37BJT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VasilisaPonomarenko.Quzlet-ish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501B06DB2920924F006C3CE9 /* Build configuration list for PBXProject "Quzlet-ish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501B06ED29209252006C3CE9 /* Debug */,
+				501B06EE29209252006C3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501B06EF29209252006C3CE9 /* Build configuration list for PBXNativeTarget "Quzlet-ish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501B06F029209252006C3CE9 /* Debug */,
+				501B06F129209252006C3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		501B06F429209B2D006C3CE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		501B06F529209B2D006C3CE9 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 501B06F429209B2D006C3CE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		501B06F729209B2D006C3CE9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 501B06F429209B2D006C3CE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 501B06D82920924F006C3CE9 /* Project object */;
+}
